@@ -16,7 +16,9 @@
             android:textStyle="bold"
             android:text="ALBUM HOT"
             android:textColor="#333"
-            android:textSize="22sp" />
+            android:textSize="22sp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="5dp" />
 
         <TextView
             android:id="@+id/textviewxemthemAlbum"

@@ -3,6 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/DucSoSad/AndroidStudioProjects/ZMp3/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/DucSoSad/AndroidStudioProjects/ZMp3/app/src/main/res/layout/dong_banner.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/DucSoSad/AndroidStudioProjects/ZMp3/app/src/main/res/layout/fragment_album_hot.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/DucSoSad/AndroidStudioProjects/ZMp3/app/src/main/res/layout/fragment_banner.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/DucSoSad/AndroidStudioProjects/ZMp3/app/src/main/res/layout/fragment_playlist.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/DucSoSad/AndroidStudioProjects/ZMp3/app/src/main/res/layout/fragment_tim_kiem.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/DucSoSad/AndroidStudioProjects/ZMp3/app/src/main/res/layout/fragment_trang_chu.xml" value="0.22" />
         <entry key="..\:/Users/SV/AndroidStudioProjects/app-play-music/app/src/main/res/layout/fragment_tim_kiem.xml" value="0.1" />
       </map>
     </option>

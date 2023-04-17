@@ -16,12 +16,12 @@
         android:id="@+id/textviewtitleplaylist"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
+
     <ListView
-        android:layout_below="@+id/textviewtitleplaylist"
         android:id="@+id/listviewplaylist"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-    </ListView>
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textviewtitleplaylist"></ListView>
 
     <TextView
         android:id="@+id/textviewviewmoreplaylist"
