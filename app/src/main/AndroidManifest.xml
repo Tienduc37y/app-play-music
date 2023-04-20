@@ -11,13 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Activity.PlayNhacActivity"></activity>
-        <activity android:name=".Activity.DanhsachtatcaAlbumActivity" />
-        <activity android:name=".Activity.DanhsachtheloaitheochudeActivity" />
-        <activity android:name=".Activity.DanhsachtatcachudeActivity" />
-        <activity android:name=".Activity.DanhsachcacplaylistActivity" />
-        <activity android:name=".Activity.DanhsachbaihatActivity" />
-        <activity android:name=".Activity.MainActivity">
+        <activity android:name=".Activity.MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -14,45 +14,7 @@
             android:id="@+id/fragmentbanner"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
-        <LinearLayout
-            android:background="#E1e1e1"
-            android:layout_width="match_parent"
-            android:layout_height="10dp"/>
-        <fragment
-            android:name="com.example.zmp3.Fragment.Fragment_Playlist"
-            android:id="@+id/fragmentplaylist"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-        <LinearLayout
-            android:background="#E1e1e1"
-            android:layout_width="match_parent"
-            android:layout_height="10dp"/>
-        <fragment
-            android:name="com.example.zmp3.Fragment.Fragment_ChuDe_TheLoai_Today"
-            android:id="@+id/fragmentchudevatheloai"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            />
-        <LinearLayout
-            android:background="#E1e1e1"
-            android:layout_width="match_parent"
-            android:layout_height="10dp"/>
-        <fragment
-            android:name="com.example.zmp3.Fragment.Fragment_Album_Hot"
-            android:id="@+id/fragmentalbum"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            />
-        <LinearLayout
-            android:background="#E1e1e1"
-            android:layout_width="match_parent"
-            android:layout_height="10dp"/>
-        <fragment
-            android:name="com.example.zmp3.Fragment.Fragment_Bai_Hat_Hot"
-            android:id="@+id/fragmentbaihathot"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            />
+
     </LinearLayout>
 
 </ScrollView>
