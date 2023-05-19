@@ -11,8 +11,6 @@ import com.example.zmp3.Fragment.Fragment_Tim_Kiem;
 import com.example.zmp3.R;
 import com.google.android.material.tabs.TabLayout;
 
-import java.util.Objects;
-
 public class MainActivity extends AppCompatActivity {
 
     TabLayout tabLayout;
@@ -33,8 +31,8 @@ public class MainActivity extends AppCompatActivity {
         mainViewPagerAdapter.addFragment(new Fragment_Tim_Kiem(), "Tìm kiếm");
         viewPager.setAdapter(mainViewPagerAdapter);
         tabLayout.setupWithViewPager(viewPager);
-        Objects.requireNonNull(tabLayout.getTabAt(0)).setIcon(R.drawable.ic_home);
-        Objects.requireNonNull(tabLayout.getTabAt(1)).setIcon(R.drawable.ic_search);
+        tabLayout.getTabAt(0).setIcon(R.drawable.ic_home);
+        tabLayout.getTabAt(1).setIcon(R.drawable.ic_search);
 
     }
 
