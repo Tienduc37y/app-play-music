@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:background="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="1dp">
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/imageviewbaihathot"
+        android:scaleType="fitXY"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_toStartOf="@+id/imageviewluotthich"
+        android:layout_toEndOf="@+id/imageviewbaihathot"
+        android:gravity="start|center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textviewcasibaihathot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:singleLine="true"
+            android:text="Ca sĩ"
+            android:textColor="#999"
+            android:textSize="10sp" />
+        <TextView
+            android:id="@+id/textviewtenbaihathot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="Tên bài hát"
+            android:textColor="#333"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_marginEnd="10dp"
+        android:id="@+id/imageviewluotthich"
+        android:src="@drawable/ic_baseline_favorite_border"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        />
+</RelativeLayout>
