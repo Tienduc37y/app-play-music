@@ -46,9 +46,9 @@ public class Fragment_Tim_Kiem extends Fragment {
         toolbar = view.findViewById(R.id.toolbarsearchbaihat);
         recyclerViewsearchbaihat = view.findViewById(R.id.recyclerviewsearchbaihat);
         txtkhongcodulieu = view.findViewById(R.id.textviewkhongcodulieu);
+        //truy cập vào activity chứa fragment dùng appcompatactivity Hỗ trợ toolbar
         ((AppCompatActivity)getActivity()).setSupportActionBar(toolbar);
-
-        //
+        //  cho phép Fragment tạo và hiển thị các mục menu tùy chỉnh
         setHasOptionsMenu(true);
 
         return view;
@@ -61,6 +61,7 @@ public class Fragment_Tim_Kiem extends Fragment {
         MenuItem menuItem = menu.findItem(R.id.menu_search);
         SearchView searchView = (SearchView) menuItem.getActionView();
         searchView.setMaxWidth(Integer.MAX_VALUE);
+        // lang nghe searchview
         searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
             //tìm kiếm khi ấn enter
             @Override

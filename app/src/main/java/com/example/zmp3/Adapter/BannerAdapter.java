@@ -18,7 +18,7 @@ import com.squareup.picasso.Picasso;
 import java.util.ArrayList;
 
 public class BannerAdapter extends PagerAdapter {
-    Context context;
+    Context context; // biến cung cấp truyền dư liệu (layout,image source)
     ArrayList<Quangcao> arrayListbanner;
 
     public BannerAdapter(Context context, ArrayList<Quangcao> arrayListbanner) {
@@ -31,6 +31,7 @@ public class BannerAdapter extends PagerAdapter {
         return arrayListbanner.size();
     }
 
+    // xác định xem  view hiển thị đúng  object k
     @Override
     public boolean isViewFromObject(@NonNull View view, @NonNull Object object) {
         return view==object;
