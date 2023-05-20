@@ -36,13 +36,13 @@ public class SearchBaiHatAdapter extends RecyclerView.Adapter<SearchBaiHatAdapte
 
     @NonNull
     @Override
+    // gan layout
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         LayoutInflater inflater = LayoutInflater.from(parent.getContext());
         View view = inflater.inflate(R.layout.dong_search_bai_hat,parent,false);
-
         return new ViewHolder(view);
     }
-
+    // gan du lieu cho moi view
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         Baihat baihat=mangbaihat.get(position);
@@ -65,6 +65,7 @@ public class SearchBaiHatAdapter extends RecyclerView.Adapter<SearchBaiHatAdapte
             txtCasi = itemView.findViewById(R.id.textviewsearchtencasi);
             imgbaihat= itemView.findViewById(R.id.imageviewSearchbaihat);
             imgluotthich= itemView.findViewById(R.id.imageviewSearchluotthich);
+            // click mo nhac
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -84,10 +85,11 @@ public class SearchBaiHatAdapter extends RecyclerView.Adapter<SearchBaiHatAdapte
                         public void onResponse(Call<String> call, Response<String> response) {
                             String ketqua = response.body();
                             if (ketqua.equals("Success")){
+                                //hien thi thong bao ngan
                                 Toast.makeText(context,"Đã thích",Toast.LENGTH_SHORT).show();
                             }
                             else {
-                                Toast.makeText(context,"Lỗi",Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(context,"Lỗi",Toast.LENGTH_SHORT).show();
                             }
                         }
 
