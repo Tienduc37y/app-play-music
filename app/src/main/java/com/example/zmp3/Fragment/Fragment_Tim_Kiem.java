@@ -46,7 +46,7 @@ public class Fragment_Tim_Kiem extends Fragment {
         toolbar = view.findViewById(R.id.toolbarsearchbaihat);
         recyclerViewsearchbaihat = view.findViewById(R.id.recyclerviewsearchbaihat);
         txtkhongcodulieu = view.findViewById(R.id.textviewkhongcodulieu);
-        //truy cập vào activity chứa fragment dùng appcompatactivity Hỗ trợ toolbar
+        //Hỗ trợ toolbar
         ((AppCompatActivity)getActivity()).setSupportActionBar(toolbar);
         //  cho phép Fragment tạo và hiển thị các mục menu tùy chỉnh
         setHasOptionsMenu(true);
@@ -57,8 +57,10 @@ public class Fragment_Tim_Kiem extends Fragment {
 
     @Override
     public void onCreateOptionsMenu(@NonNull Menu menu, @NonNull MenuInflater inflater) {
+        //tao hien thi menu
         inflater.inflate(R.menu.search_view,menu);
         MenuItem menuItem = menu.findItem(R.id.menu_search);
+        // truy cap den view hien thi menu nay
         SearchView searchView = (SearchView) menuItem.getActionView();
         searchView.setMaxWidth(Integer.MAX_VALUE);
         // lang nghe searchview
@@ -87,10 +89,11 @@ public class Fragment_Tim_Kiem extends Fragment {
                 ArrayList<Baihat> mangbaihat= (ArrayList<Baihat>) response.body();
                 if (mangbaihat.size()>0){
                     searchBaiHatAdapter= new SearchBaiHatAdapter(getActivity(),mangbaihat);
+                    //quan li recycleview hien thi cac phan tu
                     LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getActivity());
                     recyclerViewsearchbaihat.setLayoutManager(linearLayoutManager);
                     recyclerViewsearchbaihat.setAdapter(searchBaiHatAdapter);
-                    //nếu k có dữ liệu hiển thị text rỗng
+
                     txtkhongcodulieu.setVisibility(View.GONE);
                     recyclerViewsearchbaihat.setVisibility(View.VISIBLE);
 
