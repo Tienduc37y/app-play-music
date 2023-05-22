@@ -42,7 +42,7 @@ public class Fragment_Banner extends Fragment {
         anhxa();
         return view;
     }
-
+    // truy cập tương tác đến các tp trong giao diện
     private void anhxa() {
         viewPager= view.findViewById(R.id.viewpager);
         circleIndicator=view.findViewById(R.id.indicatordefault);

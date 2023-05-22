@@ -39,7 +39,9 @@ public class BannerAdapter extends PagerAdapter {
 
     @NonNull
     @Override
+    // gọi và tạo trả về view
     public Object instantiateItem(@NonNull ViewGroup container, int position) {
+        // sử dụng layoutinflater chuyên đổi các layout thành object view
         LayoutInflater inflater=LayoutInflater.from(context);
         View view = inflater.inflate(R.layout.dong_banner,null);
 
