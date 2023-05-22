@@ -3,23 +3,38 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/DucSoSad/AndroidStudioProjects/ZMp3/app/src/main/res/drawable-v24/ic_albums.xml" value="0.1" />
+        <entry key="..\:/Users/DucSoSad/AndroidStudioProjects/ZMp3/app/src/main/res/drawable-v24/ic_back.xml" value="0.1" />
+        <entry key="..\:/Users/DucSoSad/AndroidStudioProjects/ZMp3/app/src/main/res/drawable-v24/ic_baseline_favorite_border.xml" value="0.1" />
+        <entry key="..\:/Users/DucSoSad/AndroidStudioProjects/ZMp3/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
         <entry key="..\:/Users/DucSoSad/AndroidStudioProjects/ZMp3/app/src/main/res/drawable-v24/ic_play.xml" value="0.199" />
+        <entry key="..\:/Users/DucSoSad/AndroidStudioProjects/ZMp3/app/src/main/res/drawable/border_null.xml" value="0.1" />
         <entry key="..\:/Users/DucSoSad/AndroidStudioProjects/ZMp3/app/src/main/res/drawable/custom_background_banner.xml" value="0.199" />
         <entry key="..\:/Users/DucSoSad/AndroidStudioProjects/ZMp3/app/src/main/res/drawable/custom_background_play_nhac.xml" value="0.199" />
+        <entry key="..\:/Users/DucSoSad/AndroidStudioProjects/ZMp3/app/src/main/res/drawable/ic_baseline_shuffle_24.xml" value="0.1" />
+        <entry key="..\:/Users/DucSoSad/AndroidStudioProjects/ZMp3/app/src/main/res/drawable/ic_favorite_red.xml" value="0.1" />
+        <entry key="..\:/Users/DucSoSad/AndroidStudioProjects/ZMp3/app/src/main/res/drawable/ic_home.xml" value="0.1" />
+        <entry key="..\:/Users/DucSoSad/AndroidStudioProjects/ZMp3/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/DucSoSad/AndroidStudioProjects/ZMp3/app/src/main/res/drawable/ic_pause.xml" value="0.1" />
         <entry key="..\:/Users/DucSoSad/AndroidStudioProjects/ZMp3/app/src/main/res/drawable/ic_repeat.xml" value="0.199" />
         <entry key="..\:/Users/DucSoSad/AndroidStudioProjects/ZMp3/app/src/main/res/drawable/ic_replay.xml" value="0.199" />
         <entry key="..\:/Users/DucSoSad/AndroidStudioProjects/ZMp3/app/src/main/res/drawable/ic_search.xml" value="0.199" />
         <entry key="..\:/Users/DucSoSad/AndroidStudioProjects/ZMp3/app/src/main/res/drawable/ic_skip_next.xml" value="0.199" />
+        <entry key="..\:/Users/DucSoSad/AndroidStudioProjects/ZMp3/app/src/main/res/drawable/ic_skip_previous.xml" value="0.1" />
         <entry key="..\:/Users/DucSoSad/AndroidStudioProjects/ZMp3/app/src/main/res/drawable/icon_click_repeat.xml" value="0.199" />
         <entry key="..\:/Users/DucSoSad/AndroidStudioProjects/ZMp3/app/src/main/res/drawable/icon_click_replay.xml" value="0.199" />
         <entry key="..\:/Users/DucSoSad/AndroidStudioProjects/ZMp3/app/src/main/res/layout/activity_danhsachbaihat.xml" value="0.358695652173913" />
         <entry key="..\:/Users/DucSoSad/AndroidStudioProjects/ZMp3/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
         <entry key="..\:/Users/DucSoSad/AndroidStudioProjects/ZMp3/app/src/main/res/layout/activity_play_nhac.xml" value="0.358695652173913" />
         <entry key="..\:/Users/DucSoSad/AndroidStudioProjects/ZMp3/app/src/main/res/layout/dong_banner.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/DucSoSad/AndroidStudioProjects/ZMp3/app/src/main/res/layout/dong_cac_chu_de.xml" value="0.14722222222222223" />
+        <entry key="..\:/Users/DucSoSad/AndroidStudioProjects/ZMp3/app/src/main/res/layout/dong_play_bai_hat.xml" value="0.18819655521783182" />
         <entry key="..\:/Users/DucSoSad/AndroidStudioProjects/ZMp3/app/src/main/res/layout/dong_playlist.xml" value="0.22" />
         <entry key="..\:/Users/DucSoSad/AndroidStudioProjects/ZMp3/app/src/main/res/layout/dong_search_bai_hat.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/DucSoSad/AndroidStudioProjects/ZMp3/app/src/main/res/layout/dong_the_loai_theo_chu_de.xml" value="0.14722222222222223" />
         <entry key="..\:/Users/DucSoSad/AndroidStudioProjects/ZMp3/app/src/main/res/layout/fragment_album_hot.xml" value="0.358695652173913" />
         <entry key="..\:/Users/DucSoSad/AndroidStudioProjects/ZMp3/app/src/main/res/layout/fragment_banner.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/DucSoSad/AndroidStudioProjects/ZMp3/app/src/main/res/layout/fragment_chude_theloai_today.xml" value="0.14722222222222223" />
         <entry key="..\:/Users/DucSoSad/AndroidStudioProjects/ZMp3/app/src/main/res/layout/fragment_playlist.xml" value="0.358695652173913" />
         <entry key="..\:/Users/DucSoSad/AndroidStudioProjects/ZMp3/app/src/main/res/layout/fragment_tim_kiem.xml" value="0.358695652173913" />
         <entry key="..\:/Users/DucSoSad/AndroidStudioProjects/ZMp3/app/src/main/res/layout/fragment_trang_chu.xml" value="0.1" />
